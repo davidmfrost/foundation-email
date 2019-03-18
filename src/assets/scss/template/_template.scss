@@ -5,7 +5,8 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #e4e5ea !important;
+  background-color: #e4e5ea !important;
 }
 
 .container.header {
@@ -18,11 +19,36 @@ html,
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: #FF690F;
+  background-color: #FF690F;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 20px;
+
+    h1 {
+      color: white;
+    }
+  }
 }
 
-.header .columns {
-  padding-bottom: 0;
+
+.sub-header {
+  background: #d65600;
+  background-color: #d65600;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 20px;
+
+    h1 {
+      color: white;
+    }
+  }
 }
 
 .header p {
