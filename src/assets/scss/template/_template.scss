@@ -28,8 +28,12 @@ html,
     padding-left: 20px !important;
     padding-top: 20px;
 
-    h1 {
-      color: white;
+    .logo-white {
+      width: 128px;
+    }
+
+    .user-icon {
+      width: 32px;
     }
   }
 }
