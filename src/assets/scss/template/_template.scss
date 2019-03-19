@@ -142,13 +142,13 @@ html,
   background: #f1f4f7;
   background-color: #f1f4f7;
 
+  & > tbody > tr > th {
+    padding-top: 16px;
+  }
+
   .offer {
     background: #ffffff;
     background-color: #ffffff;
-
-    & > tbody > tr > th {
-      padding-top: 16px;
-    }
   
     .columns {
       th {
@@ -156,6 +156,11 @@ html,
         padding-bottom: 20px;
         padding-left: 20px;
         padding-right: 20px;
+      }
+
+      & > table {
+        max-width: 568px;
+        table-layout: fixed;
       }
     }
     
