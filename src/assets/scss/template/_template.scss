@@ -144,13 +144,17 @@ html,
   background-color: #f1f4f7;
 
   & > tbody > tr > th {
-    padding-top: 16px;
+    padding-top: 0;
+  }
+
+  .first-offer {
+    padding-top: 16px !important;
   }
 
   .offer {
     background: #ffffff;
     background-color: #ffffff;
-  
+
     .columns {
       th {
         padding-top: 20px;
