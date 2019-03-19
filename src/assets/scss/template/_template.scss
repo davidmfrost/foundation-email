@@ -5,7 +5,8 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #e4e5ea !important;
+  background-color: #e4e5ea !important;
 }
 
 .container.header {
@@ -18,11 +19,61 @@ html,
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: #FF690F;
+  background-color: #FF690F;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 20px;
+
+    .logo-white {
+      width: 128px;
+    }
+
+    .user-icon {
+      width: 32px;
+    }
+  }
 }
 
-.header .columns {
-  padding-bottom: 0;
+
+.sub-header {
+  background: #d65600;
+  background-color: #d65600;
+
+  .columns {
+    padding-bottom: 5px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-top: 5px;
+    
+    a {
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+
+      .icons {
+        width: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+
+    th {
+      text-align: center;
+    }
+
+    .menu-divider {
+      display: block;
+      height: 20px;
+      width: 1px;
+      background: #ff690f;
+      background-color: #ff690f;
+    }
+  }
 }
 
 .header p {
