@@ -9,15 +9,7 @@ html,
   background-color: #e4e5ea !important;
 }
 
-.container.header {
-  background: #f3f3f3;
-}
-
-.body-drip {
-  border-top: 8px solid #663399;
-}
-
-// Full Width Headers
+// Header
 .header {
   background: #FF690F;
   background-color: #FF690F;
@@ -37,7 +29,6 @@ html,
     }
   }
 }
-
 
 .sub-header {
   background: #d65600;
@@ -76,35 +67,71 @@ html,
   }
 }
 
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
+.deal-of-day {
+  background: #13191F;
+  background-color: #13191F;
 
-.header .wrapper-inner {
-  padding: 20px;
-}
+  .columns {
+    th {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  img {
+    padding-bottom: 20px;
+  }
+  h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 
-.header .container {
-  background: transparent;
-}
+  p {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
+  span {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    display: block;
 
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
+    &.save-amount {
+      font-size: 14px;
+    }
 
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
+    &.tiny-info {
+      font-size: 10px;
+      font-weight: 300;
+      padding-bottom: 10px;
+    }
 
-.wrapper.secondary {
-  background: #f3f3f3;
+    &.price {
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+  }
+
+  .button {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: white;
+    &:hover {
+      color: $primary-color;
+    }
+  }
 }
