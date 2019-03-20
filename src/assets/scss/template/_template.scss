@@ -7,6 +7,7 @@ html,
 .body {
   background: #e4e5ea !important;
   background-color: #e4e5ea !important;
+  padding-bottom: 300px;
 }
 
 // Header
@@ -258,6 +259,60 @@ html,
         text-align: center;
         padding-bottom: 20px;
       }
+    }
+  }
+}
+
+// Footer
+.footer-top {
+  background: #222D37;
+  background-color: #222D37;
+  color: white;
+
+  & > tbody > tr > th {
+    padding-top: 30px !important;
+    padding-bottom: 25px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+  th {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .circle-logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .call-to-action {
+    display: block;
+    font-size: 14px;
+    hyphens: none;
+  }
+
+  .info {
+    display: block;
+    font-size: 12px;
+    hyphens: none;
+  }
+
+  .info-section > table > tbody > tr > th {
+    padding-left: 10px;
+    color: white;
+  }
+
+  .store-logos {
+
+    img {
+      height: 40px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    & > table > tbody > tr > th > table > tbody > tr > th {
+      padding-bottom: 5px;
     }
   }
 }
