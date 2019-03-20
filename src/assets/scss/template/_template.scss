@@ -262,3 +262,45 @@ html,
     }
   }
 }
+
+// Footer
+.footer-top {
+  background: #222D37;
+  background-color: #222D37;
+  color: white;
+
+  & > tbody > tr > th {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+  th {
+    padding-bottom: 0;
+  }
+
+  .call-to-action {
+    display: block;
+    font-size: 14px;
+  }
+
+  .info {
+    display: block;
+    font-size: 12px;
+  }
+
+  .info-section > table > tbody > tr > th {
+    padding-left: 10px;
+    color: white;
+  }
+
+  .store-logos {
+
+    img {
+      height: 40px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
