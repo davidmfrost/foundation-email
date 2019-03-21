@@ -356,3 +356,40 @@ html,
     }
   }
 }
+
+.footer-menu {
+  background: #14181c;
+  background-color: #14181c;
+
+  .columns {
+    padding-bottom: 5px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-top: 5px;
+    
+    a {
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+
+      .icons {
+        width: 20px;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+
+    th {
+      text-align: center;
+    }
+
+    .menu-divider {
+      display: block;
+      height: 20px;
+      width: 1px;
+      background: #ff690f;
+      background-color: #ff690f;
+    }
+  }
+}
