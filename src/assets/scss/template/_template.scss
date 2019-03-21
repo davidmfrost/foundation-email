@@ -291,6 +291,7 @@ html,
     font-size: 14px;
     hyphens: none;
     color: white;
+    padding-left: 10px;
   }
 
   .info {
@@ -298,11 +299,12 @@ html,
     font-size: 12px;
     hyphens: none;
     color: white;
+    padding-left: 10px;
   }
 
   .info-section > table > tbody > tr > th {
-    padding-left: 10px;
-    color: white;
+    padding-left: 10px !important;
+    color: white !important;
   }
 
   .store-logos {
