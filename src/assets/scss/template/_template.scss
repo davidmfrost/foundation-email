@@ -48,7 +48,7 @@ html,
 
       .icons {
         width: 20px;
-        margin-right: 10px;
+        margin-right: 5px;
         display: inline-block;
         vertical-align: bottom;
       }
@@ -269,6 +269,10 @@ html,
   background-color: #222D37;
   color: white;
 
+  & > tbody > tr {
+    vertical-align: middle;
+  }
+
   & > tbody > tr > th {
     padding-top: 30px !important;
     padding-bottom: 25px !important;
@@ -290,25 +294,32 @@ html,
     display: block;
     font-size: 14px;
     hyphens: none;
+    color: white;
+    padding-left: 10px;
   }
 
   .info {
     display: block;
     font-size: 12px;
     hyphens: none;
+    color: white;
+    padding-left: 10px;
   }
 
   .info-section > table > tbody > tr > th {
-    padding-left: 10px;
-    color: white;
+    padding-left: 10px !important;
+    color: white !important;
   }
 
   .store-logos {
 
     img {
       height: 40px;
+      width: 120px;
       display: block;
       margin: 0 auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
 
     & > table > tbody > tr > th > table > tbody > tr > th {
