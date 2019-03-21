@@ -269,6 +269,10 @@ html,
   background-color: #222D37;
   color: white;
 
+  & > tbody > tr {
+    vertical-align: middle;
+  }
+
   & > tbody > tr > th {
     padding-top: 30px !important;
     padding-bottom: 25px !important;
