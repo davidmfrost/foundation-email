@@ -10,7 +10,7 @@ html,
   padding-bottom: 300px;
 }
 
-// Header
+// Header Section
 .header {
   background: $primary-color;
   background-color: $primary-color;
@@ -31,6 +31,7 @@ html,
   }
 }
 
+// Sub Header Section
 .sub-header {
   background: #d65600;
   background-color: #d65600;
@@ -68,7 +69,7 @@ html,
   }
 }
 
-// Deal of the Day
+// Deal of the Day Section
 .deal-of-day {
   background: #13191F;
   background-color: #13191F;
@@ -263,7 +264,8 @@ html,
   }
 }
 
-// Footer
+// Footer Section
+// Top Footer Section
 .footer-top {
   background: #222D37;
   background-color: #222D37;
@@ -328,6 +330,7 @@ html,
   }
 }
 
+// Footer Social Section
 .footer-social {
   background: #14181c;
   background-color: #14181c;
@@ -357,6 +360,7 @@ html,
   }
 }
 
+// Footer Menu Section
 .footer-menu {
   background: #14181c;
   background-color: #14181c;
@@ -396,6 +400,7 @@ html,
   }
 }
 
+// Bottom Footer Section
 .footer-bottom {
   background: #14181c;
   background-color: #14181c;
@@ -462,6 +467,7 @@ html,
   }
 }
 
+// Framework Center Fix
 .center-tag {
   min-width: auto;
 }
