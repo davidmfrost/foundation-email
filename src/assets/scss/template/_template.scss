@@ -10,7 +10,7 @@ html,
   padding-bottom: 300px;
 }
 
-// Header
+// Header Section
 .header {
   background: $primary-color;
   background-color: $primary-color;
@@ -31,6 +31,7 @@ html,
   }
 }
 
+// Sub Header Section
 .sub-header {
   background: #d65600;
   background-color: #d65600;
@@ -42,7 +43,7 @@ html,
     padding-top: 5px;
     
     a {
-      color: white;
+      color: #ffffff;
       font-size: 14px;
       font-weight: 700;
 
@@ -68,7 +69,7 @@ html,
   }
 }
 
-// Deal of the Day
+// Deal of the Day Section
 .deal-of-day {
   background: #13191F;
   background-color: #13191F;
@@ -83,8 +84,9 @@ html,
   img {
     padding-bottom: 20px;
   }
+
   h2 {
-    color: white;
+    color: #ffffff;
     font-weight: 900;
     font-size: 30px;
     text-align: center;
@@ -92,7 +94,7 @@ html,
   }
 
   p {
-    color: white;
+    color: #ffffff;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
@@ -100,7 +102,7 @@ html,
   }
 
   span {
-    color: white;
+    color: #ffffff;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
@@ -131,7 +133,7 @@ html,
     padding-bottom: 7px;
     border: 1px solid #fff;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     margin: 0 auto;
     &:hover {
       color: $primary-color;
@@ -173,8 +175,9 @@ html,
     img {
       padding-bottom: 20px;
     }
+
     h2 {
-      color: white;
+      color: #ffffff;
       font-weight: 900;
       font-size: 30px;
       text-align: center;
@@ -190,7 +193,7 @@ html,
     }
   
     span {
-      color: white;
+      color: #ffffff;
       font-weight: 600;
       font-size: 16px;
       text-align: center;
@@ -226,7 +229,7 @@ html,
       padding-bottom: 7px;
       border: 1px solid #fff;
       border-radius: 5px;
-      color: white;
+      color: #ffffff;
       margin: 0 auto;
       &:hover {
         color: $primary-color;
@@ -263,11 +266,12 @@ html,
   }
 }
 
-// Footer
+// Footer Section
+// Top Footer Section
 .footer-top {
   background: #222D37;
   background-color: #222D37;
-  color: white;
+  color: #ffffff;
 
   & > tbody > tr {
     vertical-align: middle;
@@ -294,7 +298,7 @@ html,
     display: block;
     font-size: 14px;
     hyphens: none;
-    color: white;
+    color: #ffffff;
     padding-left: 10px;
   }
 
@@ -302,13 +306,13 @@ html,
     display: block;
     font-size: 12px;
     hyphens: none;
-    color: white;
+    color: #ffffff;
     padding-left: 10px;
   }
 
   .info-section > table > tbody > tr > th {
     padding-left: 10px !important;
-    color: white !important;
+    color: #ffffff !important;
   }
 
   .store-logos {
@@ -328,6 +332,7 @@ html,
   }
 }
 
+// Footer Social Section
 .footer-social {
   background: #14181c;
   background-color: #14181c;
@@ -357,6 +362,7 @@ html,
   }
 }
 
+// Footer Menu Section
 .footer-menu {
   background: #14181c;
   background-color: #14181c;
@@ -370,7 +376,7 @@ html,
     padding-top: 5px;
     
     a {
-      color: white;
+      color: #ffffff;
       font-size: 14px;
       font-weight: 700;
 
@@ -396,6 +402,7 @@ html,
   }
 }
 
+// Bottom Footer Section
 .footer-bottom {
   background: #14181c;
   background-color: #14181c;
@@ -408,7 +415,6 @@ html,
   }
 
   .lower-links {
-
     .link {
       font-size: 12px !important;
       color: #ffffff !important;
@@ -425,7 +431,6 @@ html,
   }
 
   .privacy {
-    
     th {
       padding-bottom: 0;
     }
@@ -444,13 +449,11 @@ html,
 
   .copyright,
   .address {
-
     th {
       padding-bottom: 0;
     }
 
     .columns {
-
       p {
         color: #d0d0d1;
         font-size: 13px;
@@ -462,6 +465,7 @@ html,
   }
 }
 
+// Framework Center Fix
 .center-tag {
   min-width: auto;
 }
