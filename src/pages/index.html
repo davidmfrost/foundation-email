@@ -19,16 +19,18 @@ subject: Great Deals Today
 <container>
   <row class="content-section">
     <columns class="first-offer">
-      <row class="offer">
-        <columns>
-          <img src="{{ root }}/assets/img/kayak_files/cancun.png" alt="">
-          <p>Cancun: 4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other cities available.</p>
-          <span class="save-amount">Save up to 65%</span>
-          <span class="tiny-info">CheapCaribbean.com</span>
-          <span class="price">$689+</span>
-          <a href="#" class="button">See Deal</a>
-        </columns>
-      </row>
+      {{#each kayakEmail.offers}}
+        <row class="offer">
+          <columns>
+            <img src="{{ this.image }}" alt="">
+            <p>{{ this.location }}: {{ this.description }}</p>
+            <span class="save-amount">{{ this.saveAmount }}</span>
+            <span class="tiny-info">{{ this.tinyInfo }}</span>
+            <span class="price">${{ this.price }}+</span>
+            <a href="{{ this.link }}" class="button">See Deal</a>
+          </columns>
+        </row>
+      {{/each}}
     </columns>
   </row>
 </container>
