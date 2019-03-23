@@ -16,7 +16,7 @@
     "tinyInfo": "CheapCaribbean.com",
     "price": "689",
     "link": "#",
-    "image": "//raw.githubusercontent.com/davidmichaelfrost/foundation-email/develop/etc/build/img/cancun.png"
+    "image": "https://raw.githubusercontent.com/davidmichaelfrost/foundation-email/develop/etc/build/img/cancun.png"
   },
   {
     "location": "China",
@@ -25,7 +25,7 @@
     "tinyInfo": "StayCityChina.com",
     "price": "830",
     "link": "#",
-    "image": "//raw.githubusercontent.com/davidmichaelfrost/foundation-email/develop/etc/build/img/china.jpg"
+    "image": "https://raw.githubusercontent.com/davidmichaelfrost/foundation-email/develop/etc/build/img/china.jpg"
   },
   {
     "location": "London",
@@ -34,7 +34,7 @@
     "tinyInfo": "GetLondoned.com",
     "price": "739",
     "link": "#",
-    "image": "//raw.githubusercontent.com/davidmichaelfrost/foundation-email/develop/etc/build/img/london.png"
+    "image": "https://raw.githubusercontent.com/davidmichaelfrost/foundation-email/develop/etc/build/img/london.png"
   }
 ]
 }
