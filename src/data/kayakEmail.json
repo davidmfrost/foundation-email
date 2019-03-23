@@ -7,7 +7,7 @@
     "tinyInfo": "Gate 1 Travel",
     "price": "649",
     "linkToDeal": "#",
-    "image": "//raw.githubusercontent.com/davidmichaelfrost/foundation-email/develop/etc/build/img/ireland.png"
+    "image": "https://raw.githubusercontent.com/davidmichaelfrost/foundation-email/develop/etc/build/img/ireland.png"
   },
   "offers": [{
     "location": "Cancun",
